@@ -4,7 +4,7 @@ const cors = require('cors');
 
 // App erstellen
 const app = express();
-const PORT = 5000;
+const PORT = 3001;
 
 // Middleware (Helfer)
 app.use(cors()); // Frontend darf mit Backend reden
